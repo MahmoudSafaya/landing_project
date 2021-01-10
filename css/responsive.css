@@ -1,0 +1,69 @@
+
+/*styles for mobile and tablet*/
+
+@media only screen and (max-width: 600px) {
+
+  /*first the navbar*/
+  .navbar_menu{
+    background-color: #5C12A6;
+    padding: 10px;
+  }
+  .navbar_menu ul{
+    padding: 0;
+  }
+  .navbar_menu ul li{
+    margin: 0 10px;
+    font-size: 16px;
+  }
+
+  
+  /*style of the main content*/
+  main{
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  main .main_hero h1{
+    margin: 140px 0 60px;
+    font-size: 38px;
+  }
+
+  .landing_container p{
+    line-height: 1.5;
+  }
+
+
+
+  /*style of the to top button*/
+  .toTop{
+    right: 30px;
+    bottom: 40px;
+  }
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  /*style for the page_header and navbar*/
+
+  .navbar_menu{
+    padding: 15px;
+  }
+  .navbar_menu ul{
+    padding: 0;
+  }
+
+
+  /*style of the main content*/
+  main{
+    width: 85%;
+  }
+
+  /*style of the to top button*/
+  .toTop{
+    right: 40px;
+    bottom: 40px;
+  }
+
+}
